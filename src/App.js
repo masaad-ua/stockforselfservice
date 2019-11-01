@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Root from './components/Root';
-//import store from './redux';
+import store from './redux';
 import {Provider} from 'react-redux';
 import {ConnectedRouter} from 'react-router-redux'
-//import history from './history'
+import history from './history'
 import './config'
 
 

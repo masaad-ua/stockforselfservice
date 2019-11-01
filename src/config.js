@@ -1,13 +1,16 @@
 import firebase from 'firebase'
 
-export const appName = "advreact-21-08"
+export const appName = "stockforselfservice"
 export const firebaseConfig = {
-    apiKey: "AIzaSyDjA6CeIHuni5lNm4ML1b-TSxJltsYUO8g",
+    apiKey: "AIzaSyCX2DjAwszeV8E7ClzjN_pDXbfh5RcH33U",
     authDomain: `${appName}.firebaseapp.com`,
     databaseURL: `https://${appName}.firebaseio.com`,
     projectId: appName,
     storageBucket: `${appName}.appspot.com`,
-    messagingSenderId: "789814589283"
+    messagingSenderId: "983314935501",
+    appId: "1:983314935501:web:1d92433817140ec18d0384",
+    measurementId: "G-NC5H2YGK4J"
 }
 
 firebase.initializeApp(firebaseConfig)
+firebase.analytics();
