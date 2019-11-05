@@ -1,6 +1,6 @@
-import firebase from 'firebase'
+import firebase from 'firebase';
 
-export const appName = "stockforselfservice"
+export const appName = "stockforselfservice";
 export const firebaseConfig = {
     apiKey: "AIzaSyCX2DjAwszeV8E7ClzjN_pDXbfh5RcH33U",
     authDomain: `${appName}.firebaseapp.com`,
@@ -12,5 +12,4 @@ export const firebaseConfig = {
     measurementId: "G-NC5H2YGK4J"
 }
 
-firebase.initializeApp(firebaseConfig)
-firebase.analytics();
+firebase.initializeApp(firebaseConfig);
