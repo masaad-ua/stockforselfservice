@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "email-validator": "^2.0.4",
-    "firebase": "^6.3.4",
+    "firebase": "^10.9.0",
     "history": "^4.9.0",
     "immutable": "^4.0.0-rc.12",
     "prop-types": "^15.7.2",
